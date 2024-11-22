@@ -12,7 +12,7 @@ import { Stage } from "@/components/stage"
 export function generateMetadata({ params }: { params: { domain: string } }) {
   const domain = params.domain
   return {
-    title: `${domain} - get your community handle for Bluesky`,
+    title: `${domain} - get your Lana handle for Bluesky`,
     description: `get your own ${domain} handle`,
   }
 }
