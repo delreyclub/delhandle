@@ -111,7 +111,7 @@ export default async function IndexPage({
       <div className="flex max-w-[980px] flex-col items-start gap-4">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           Get your own {domain} <br className="hidden sm:inline" />
-          handle for Bluesky
+          handle for Bluesky!
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           Follow the instructions below to get your own {domain} handle
@@ -182,7 +182,7 @@ export default async function IndexPage({
                       case "reserved":
                         return "Reserved handle - please enter a different handle"
                       default:
-                        return "An error occured - please try again"
+                        return "An error occured - please contact @opium.delrey.club to report this."
                     }
                   })()}
                 </p>
@@ -197,7 +197,7 @@ export default async function IndexPage({
           last
         >
           <p className="max-w-lg text-sm">
-            Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
+            Go to Settings {">"} Account {">"} Handle {">"} Change my handle. Select &quot;I
             have my own domain&quot; and enter{" "}
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
             &quot;Verify DNS Record&quot;.
@@ -205,7 +205,7 @@ export default async function IndexPage({
           <p className="mt-6 max-w-lg text-sm">
             If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
+              sponsoring mozzius' work!
             </a>
             .
           </p>
