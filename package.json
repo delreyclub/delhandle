@@ -16,11 +16,10 @@
     "postinstall": "prisma generate",
     "studio": "prisma studio",
     "export": "tsx prisma/export.ts"
-
   },
   "dependencies": {
     "@atproto/api": "^0.12.29",
-    "@prisma/client": "5.18.0",
+    "@prisma/client": "^5.18.0",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
